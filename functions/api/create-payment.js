@@ -87,7 +87,7 @@ export async function onRequestPost({ request, env }) {
     return reply({
       success: true,
       transaction: paymentData,
-      message: "Payment request sent. Please check your phone."
+      message: "Payment request sent. Please approve the mobile money prompt on your phone."
     });
 
   } catch {
